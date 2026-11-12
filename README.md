@@ -23,4 +23,6 @@ Niniejszy program rozpowszechniany jest z nadzieji iż będzie on użyteczny - j
 W programie wykorzystano bibloteki OpenSSL. Instalator programu Inno Setup http://www.jrsoftware.org. Ikony z serwisu https://fonts.google.com/icons
 
 The program uses OpenSSL. The program installer was made in Inno Setup http://www.jrsoftware.org. Icons from https://fonts.google.com/icons
+
+
 <img width="320" height="320" alt="bialy-mis-20" src="https://github.com/user-attachments/assets/80de518c-e3b1-4aa5-ac87-573f3fc5c5d9" />
