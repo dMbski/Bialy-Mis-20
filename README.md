@@ -1,6 +1,6 @@
 
 # Bialy-Mis-20 (White Bear 2.0)
-<img width="320" height="320" alt="bialy-mis-20" src="https://github.com/user-attachments/assets/80de518c-e3b1-4aa5-ac87-573f3fc5c5d9" />
+
 Biały Miś 2.0 - program do sprawdzania kontrahenta na "białej liście" podatników VAT, oraz automatycznego zapisywania potwierdzeń weryfikacji.
 Program for verification of the contractor on the "White List" of Polish VAT taxpayers. This aspect of doing business concerns Polish companies.
 
@@ -23,3 +23,4 @@ Niniejszy program rozpowszechniany jest z nadzieji iż będzie on użyteczny - j
 W programie wykorzystano bibloteki OpenSSL. Instalator programu Inno Setup http://www.jrsoftware.org. Ikony z serwisu https://fonts.google.com/icons
 
 The program uses OpenSSL. The program installer was made in Inno Setup http://www.jrsoftware.org. Icons from https://fonts.google.com/icons
+<img width="320" height="320" alt="bialy-mis-20" src="https://github.com/user-attachments/assets/80de518c-e3b1-4aa5-ac87-573f3fc5c5d9" />
