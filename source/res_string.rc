@@ -1,0 +1,5 @@
+ABOUT1_HTML RCDATA "res_string-about1.html"
+ABOUT2_HTML RCDATA "res_string-about2.html"
+VERIF1_HTML RCDATA "res_string-verification1.html"
+CONFIG1_HTML RCDATA "res_string-config1.html"
+BLANK1_HTML RCDATA "res_string-blank1.html"

@@ -1,0 +1,82 @@
+<head><meta charset="utf-8"></head>
+<style>
+  .label {
+    padding-left: 50px;
+    font-weight: bold;
+  }
+  .input {
+    padding-left: 60px;
+  }
+  .input-edit {
+    padding-left: 5px;
+	font-size: 125%;
+  }  
+  .description {
+    padding-left: 70px;
+    font-style: italic;
+	font-size: 95%;
+  }
+</style>
+<body>
+
+  <h1 style="text-align: center;">Ustawienia</h1>
+<div class="description">Popraw wybrane parametry programu, a następnie <b>Zapisz ustawienia</b><br>przyciskiem na dole formularza.<br>
+Jeżeli nic nie zmieniasz, wybierz przycisk programu <b>Wyczyść</b>, aby powrócić do normalnej pracy.</div>
+  <p>
+    <label class="label" for="pathDataNew">Katalog danych, aktualnej wersji programu</label>
+    <div class="input">
+      <input class="input-edit" type="text" id="pathDataNew"
+             value="{field_pathDataNew_value}" style="width: 70%;">
+      <button class="button" type="button" id="selectPathDataNew">Wybierz...</button>
+      <br>
+      <div class="description">Ścieżka do katalogu z danymi, zapisane potwierdzenia.</div>
+    </div>
+  </p>
+
+  <p>
+    <label class="label" for="pathDataOld">Katalog danych, starszej wersji programu</label>
+    <div class="input">
+      <input class="input-edit" type="text" id="pathDataOld"
+             value="{field_pathDataOld_value}" style="width: 70%;">
+      <button class="button" type="button" id="selectPathDataOld">Wybierz...</button>
+      <br>
+      <div class="description">Ścieżka do katalogu z potwierdzeniami ze starszej wersji programu.</div>
+    </div>
+  </p>
+
+  <p>
+    <label class="label" for="pathBackup">Katalog kopii bezpieczeństwa</label>
+    <div class="input">
+      <input class="input-edit" type="text" id="pathBackup"
+             value="{field_pathBackup_value}" style="width: 70%;">
+      <button class="button" type="button" id="selectPathBackup">Wybierz...</button>
+      <br>
+      <div class="description">Miejsce zapisu archiwum plików potwierdzeń.<br>Dodatkowy katalog okresowego Backupu danych.</div>
+    </div>
+  </p>
+
+  <p>
+    <label class="label" for="pathBackupInterval">Odstęp między kopiami</label>
+    <div class="input">
+      <input class="input-edit" type="text" id="pathBackupInterval"
+             value="{field_pathBackupInterval_value}" style="width: 100px;"> dni
+      <br>
+      <div class="description">Liczba dni pomiędzy kolejnymi kopiami bezpieczeństwa.</div>
+    </div>
+  </p>
+<div style="text-align: center;">
+  <button class="button" type="button" id="config_save">Zapisz ustawienia</button>
+  <div class="description">Przed wyjściem, zapisz parametry.</div>
+</div>
+  <hr>
+
+  <h1 style="text-align: center;">Kopia bezpieczeństwa</h1>
+  <div style="text-align: center;"> 
+  <button class="button" type="button" id="config_backup">Wykonaj kopię teraz</button>
+  <div class="description">Ręczne wykonanie kopii plików potwierdzeń.</div>
+  </div>
+<hr>
+<h1 style="text-align: center;"><span style="background-color: #333333; color: #ffffff;"><img src="@RES_IMAGE1">&nbsp;&nbsp;Biały Miś 2.0&nbsp;&nbsp;</span></h1>
+
+</body>
+</html>
